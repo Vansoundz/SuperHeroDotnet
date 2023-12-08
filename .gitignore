@@ -1,0 +1,6 @@
+bin
+obj
+data
+.vscode
+
+.DS_Store
