@@ -9,9 +9,9 @@ namespace SuperHeroApi.Controllers;
 [Route("[controller]")]
 public class SuperheroController : ControllerBase
 {
-    private readonly ISuperHero _service;
+    private readonly ISuperHeroService _service;
 
-    public SuperheroController(ISuperHero service)
+    public SuperheroController(ISuperHeroService service)
     {
         _service = service;
     }

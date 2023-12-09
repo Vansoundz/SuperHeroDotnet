@@ -3,7 +3,7 @@ namespace SuperHeroApi.Services.Interface;
 using SuperHeroApi.Entities.Models;
 
 
-public interface ISuperHero
+public interface ISuperHeroService
 {
     Task<List<SuperHero>> AddHero(SuperHero hero);
     Task<List<SuperHero>> UpdateHero(int id, SuperHero hero);

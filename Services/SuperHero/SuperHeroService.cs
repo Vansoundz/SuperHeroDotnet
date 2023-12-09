@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SuperHeroApi.Services;
 
-public class SuperHeroService : ISuperHero
+public class SuperHeroService : ISuperHeroService
 {
     private readonly SuperHeroContext _context;
 

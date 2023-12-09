@@ -25,7 +25,7 @@ builder.Services.AddDbContext<SuperHeroContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddScoped<ISuperHero, SuperHeroService>();
+builder.Services.AddScoped<ISuperHeroService, SuperHeroService>();
 builder.Services.AddAuthorization();
 
 
